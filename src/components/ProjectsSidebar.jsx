@@ -17,7 +17,7 @@ export const ProjectsSidebar = ({
       <ul className="mt-8">
         {projects.map((project) => {
           let ccsClasses =
-            "w-full text-left px-2 py-1 rounded-sm my-1 text-stone-400 hover:text-stone-200 hover:bg-stone-800";
+            "w-full text-left px-2 py-1 rounded-sm my-1 hover:text-stone-200 hover:bg-stone-800";
 
           if (project.id === selectedProjectId) {
             ccsClasses += " bg-stone-800 text-stone-200";
